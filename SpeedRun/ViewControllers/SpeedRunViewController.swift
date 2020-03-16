@@ -54,13 +54,13 @@ class SpeedRunViewController: UIViewController {
     
     @objc private func updateTimer() {
         counter += 0.01
-        timeLabel.text = String(format: "%.2f", counter)
+        timeLabel.text = counter.stringFromTimeInterval()
     }
     
     private func refresh() {
         counter = 0.00
         self.title = "Результаты"
-        timeLabel.text = String(format: "%.2f", counter)
+        timeLabel.text = counter.stringFromTimeInterval()
         timerButton.setTitle("Старт", for: .normal)
         timerButton.setTitleColor(.systemBlue, for: .normal)
     }
@@ -85,7 +85,7 @@ extension SpeedRunViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! LapTimeTableViewCell
-        cell.lapTimeLabel.text = String(format: "%.2f", lapTimes[indexPath.row].time)
+        cell.lapTimeLabel.text = lapTimes[indexPath.row].time.stringFromTimeInterval()
         return cell
     }
 }

@@ -17,6 +17,7 @@
 		115AA6642413FBA700131F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115AA6632413FBA700131F7C /* Assets.xcassets */; };
 		115AA6672413FBA700131F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115AA6652413FBA700131F7C /* LaunchScreen.storyboard */; };
 		115AA66F2413FBC800131F7C /* SpeedRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AA66E2413FBC800131F7C /* SpeedRunViewController.swift */; };
+		117B44D0241FD81C007A3C28 /* TimeIntervalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117B44CF241FD81C007A3C28 /* TimeIntervalExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		115AA6662413FBA700131F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		115AA6682413FBA700131F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		115AA66E2413FBC800131F7C /* SpeedRunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedRunViewController.swift; sourceTree = "<group>"; };
+		117B44CF241FD81C007A3C28 /* TimeIntervalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				112B7CC1241E81C200338ECB /* Cell */,
 				112B7CBD241E3FC300338ECB /* LapTime.swift */,
+				117B44CF241FD81C007A3C28 /* TimeIntervalExtension.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117B44D0241FD81C007A3C28 /* TimeIntervalExtension.swift in Sources */,
 				115AA66F2413FBC800131F7C /* SpeedRunViewController.swift in Sources */,
 				115AA6582413FBA100131F7C /* AppDelegate.swift in Sources */,
 				112B7CBE241E3FC300338ECB /* LapTime.swift in Sources */,
