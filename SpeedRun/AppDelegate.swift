@@ -32,17 +32,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-    // MARK: - Core Data stack
-    
-    func createContainer(completion: @escaping (NSPersistentContainer) -> ()) {
-        let container = NSPersistentContainer(name: "SpeedRun")
-        container.loadPersistentStores(completionHandler: { _, error in
-            guard error == nil else {
-                fatalError("Failed to load store.")
-            }
-            DispatchQueue.main.async { completion(container) }
-        })
-    }
     
 }

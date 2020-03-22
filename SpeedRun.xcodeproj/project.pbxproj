@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		112B7CBE241E3FC300338ECB /* LapTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B7CBD241E3FC300338ECB /* LapTime.swift */; };
 		112B7CC4241E81D200338ECB /* LapTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112B7CC2241E81D200338ECB /* LapTimeTableViewCell.swift */; };
 		112B7CC5241E81D200338ECB /* LapTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112B7CC3241E81D200338ECB /* LapTimeTableViewCell.xib */; };
 		115AA6582413FBA100131F7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115AA6572413FBA100131F7C /* AppDelegate.swift */; };
@@ -21,7 +20,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		112B7CBD241E3FC300338ECB /* LapTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTime.swift; sourceTree = "<group>"; };
 		112B7CC2241E81D200338ECB /* LapTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LapTimeTableViewCell.swift; sourceTree = "<group>"; };
 		112B7CC3241E81D200338ECB /* LapTimeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LapTimeTableViewCell.xib; sourceTree = "<group>"; };
 		115AA6542413FBA100131F7C /* SpeedRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				112B7CC1241E81C200338ECB /* Cell */,
-				112B7CBD241E3FC300338ECB /* LapTime.swift */,
 				117B44CF241FD81C007A3C28 /* TimeIntervalExtension.swift */,
 			);
 			path = Models;
@@ -181,7 +178,6 @@
 				117B44D0241FD81C007A3C28 /* TimeIntervalExtension.swift in Sources */,
 				115AA66F2413FBC800131F7C /* SpeedRunViewController.swift in Sources */,
 				115AA6582413FBA100131F7C /* AppDelegate.swift in Sources */,
-				112B7CBE241E3FC300338ECB /* LapTime.swift in Sources */,
 				115AA65A2413FBA100131F7C /* SceneDelegate.swift in Sources */,
 				112B7CC4241E81D200338ECB /* LapTimeTableViewCell.swift in Sources */,
 				115AA6622413FBA100131F7C /* SpeedRun.xcdatamodeld in Sources */,
